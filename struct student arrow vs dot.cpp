@@ -12,11 +12,11 @@ void structread(student *s)
      cout<<s[0].roll<<endl<<s[0].name<<endl;
    	
 }
-void structreadd(student* obj)
+void structreadd(student* s)
 {
-   obj->roll=20;
-   strcpy(obj->name,"ksi");
-   cout<<obj->roll<<endl<<obj->name;
+   s->roll=20;
+   strcpy(s->name,"ksi");
+   cout<<s->roll<<endl<<s->name;
    	
 }
 main()
